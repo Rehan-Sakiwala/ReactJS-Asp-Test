@@ -1,0 +1,45 @@
+# ---- Visual Studio / .NET ----
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.user
+*.vspscc
+*.suo
+*.userprefs
+*.csproj.user
+*.dbmdl
+*.bak
+*.swp
+*.tmp
+*.vs/
+
+# EF Migrations Snapshots
+Migrations/*Snapshot.cs
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# ---- ASP.NET Config ----
+appsettings.Development.json
+appsettings.json
+
+# ---- React / Node ----
+client/node_modules/
+client/.next/
+client/dist/
+client/build/
+
+# ---- Logs & Env ----
+*.log
+logs/
+.env
+.env.local
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
